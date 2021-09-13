@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checks whether it renders correctly 1`] = `
+<div
+  className="app-body"
+>
+  <div
+    className="search-field-container"
+  >
+    <h1>
+      Search Media Content From The iStore API
+    </h1>
+    <h3>
+      Select Media Type
+    </h3>
+    <div
+      className="media-selector"
+    >
+      <select
+        onChange={[Function]}
+      >
+        <option>
+          Select Media
+        </option>
+        <option>
+          music
+        </option>
+        <option>
+          movie
+        </option>
+        <option>
+          podcast
+        </option>
+        <option>
+          music video
+        </option>
+        <option>
+          audio book
+        </option>
+        <option>
+          short film
+        </option>
+        <option>
+          software
+        </option>
+        <option>
+          ebook
+        </option>
+        <option>
+          tv show
+        </option>
+        <option>
+          all
+        </option>
+      </select>
+    </div>
+    <input
+      className="search-field"
+      onChange={[Function]}
+      placeholder="Type media name here..."
+      required={true}
+    />
+    <button
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+  <div
+    className="body-container"
+  >
+    <div
+      className="favourite-media"
+    >
+      <h2>
+        My Favourite Media List
+      </h2>
+      <ol />
+    </div>
+    <div
+      className="search-results"
+    >
+      <h2>
+         Search Results
+      </h2>
+      <ol />
+    </div>
+  </div>
+</div>
+`;
