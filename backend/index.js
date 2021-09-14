@@ -18,12 +18,15 @@ app.use(helmet())
 //importing the fetch dependency
 const fetch = require('node-fetch')
 
+//path requirements
+const path = require('path')
+
 //In production, Express needs to serve up resources that have been built                       
 //from the React app. We allow this by adding the following code
 if (process.env.NODE_ENV === 'production'){ 
     app.use(express.static(path.join(__dirname, 'frontend/build'))); 
-  app.get('*',(req,res)=> {res.sendFile(path.resolve(__dirname,     
-  'frontend', 'build','index.html')); 
+    app.get('*',(req,res)=> {res.sendFile(path.resolve(__dirname,     
+    'frontend', 'build','index.html')); 
   }); 
   }
 
