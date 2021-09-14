@@ -55,7 +55,7 @@ app.post('/search', async(req, res)=>{
 //if something broke
 app.use(function(err, req, res, next) {
     console.log(err.stack)
-    res.status(500).send('Something broke!')
+    res.status(500).send('Something broke! T-WaRa-N')
 })
 
 // port to run the proxy server 
